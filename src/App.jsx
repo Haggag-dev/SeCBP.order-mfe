@@ -1,5 +1,11 @@
+import Header from "products_app/Header";
+
 function App() {
-  return <div className="text-red-500">Hello World!</div>;
+  return (
+    <div>
+      <Header rightNav="Browse Products" />
+    </div>
+  );
 }
 
 export default App;
