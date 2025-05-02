@@ -14,7 +14,7 @@ export default defineConfig({
       exposes: {
         "./OrdersApp": "./src/App",
       },
-      shared: ["react", "react-dom"],
+      shared: ["react", "react-dom", "tailwindcss"],
     }),
   ],
   build: {
