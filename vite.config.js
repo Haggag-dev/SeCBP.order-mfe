@@ -11,7 +11,7 @@ export default defineConfig({
     federation({
       name: "orders-app",
       remotes: {
-        products_app: "http://localhost:5001/assets/remoteEntry.js",
+        host_app: "http://localhost:5001/assets/remoteEntry.js",
       },
       shared: ["react", "react-dom"],
     }),

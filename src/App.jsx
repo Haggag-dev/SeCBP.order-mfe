@@ -1,4 +1,4 @@
-import Header from "products_app/Header";
+import Header from "host_app/Header";
 import OrderGrid from "./components/OrderGrid";
 
 function App() {
