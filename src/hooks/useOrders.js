@@ -19,7 +19,7 @@ const useOrders = () => {
     };
 
     fetchOrders();
-  });
+  }, []);
 
   return { orders, loading, error };
 };
